@@ -1,0 +1,558 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "e2e-feature;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 689862399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User open the website",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2180327699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Assert that the login page is contain",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78715798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Assert that the username filed is visible",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9392898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on the username filed",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68172499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User enter the username \"Fatma\"",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30612199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Assert that the email filed is visible",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16984900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User click on the email filed",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74681899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User enter the email \"fatma@gmail.com\"",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20579498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Assert that the password filed is visible",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4829098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User click on the password filed",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49093100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User enter the password \"1234\"",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12575600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Assert that the gender filed is visible",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9514800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User choose the gender from drop down",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16367999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Assert that the employment status filed is visible",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19010000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User choose the employment status",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53789599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Assert that the choosed option is true",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8106300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Assert that the birthday filed is visible",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6697398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "User enter the date of birth \"2025-10-21\"",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14726899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Assert that the twoWayData filed is visible",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6640298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User enter the two way Data \"commerce\"",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24418899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Assert that the submit button is visible",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9169699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User click on the submit button",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196606898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Assert that the message of sumbit is visible",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\LoginPageSteps.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4291598
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 103887600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E",
+            "line": 1
+          },
+          {
+            "name": "@login",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "e2e-feature;add-product-and-confirm-order",
+        "keyword": "Scenario Outline",
+        "line": 52,
+        "name": "Add Product and Confirm Order",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 348920299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "User navigates to the home page",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2426576500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "Assert that the home page is contain",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49574099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "Assert that the checkout button is visible",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13679298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "User click on the add to cart",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131629299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "User click on the checkout button in home page",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76323800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User click on the checkout button in checkout page",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83972699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "User enter the location \"Egypt\"",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28621798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "User click on the Terms",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69416898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Assert that the terms is contain Terms And Conditions",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9734500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "User click on the close button",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151906000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "User click on the checkbox button",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1005072499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "User click on the Purchase button",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57025400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "Assert that the message is visible",
+            "match": {
+              "location": "cucumber\\stepdefinitions\\HomePageSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5924098
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 99567999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E",
+            "line": 1
+          },
+          {
+            "name": "@addProduct",
+            "line": 34
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "e2e-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "E2E Feature",
+    "tags": [
+      {
+        "name": "@E2E",
+        "line": 1
+      }
+    ],
+    "uri": "cucumber\\features\\promocommerce.feature"
+  }
+]
