@@ -2,10 +2,10 @@
   "default": {
     "requireModule": ["ts-node/register"],
     "require": [
-      "cucumber/stepdefinitions/**/*.ts",
-      "cucumber/hooks/**/*.ts"
+      "cucumber/stepdefinitions/*.ts",
+      "cucumber/hooks/hooks.ts"
     ],
-    "paths": ["cucumber/features/**/*.feature"],
+    "paths": ["cucumber/features"],
     "formatOptions": {
       "snippetInterface": "async-await"
     },

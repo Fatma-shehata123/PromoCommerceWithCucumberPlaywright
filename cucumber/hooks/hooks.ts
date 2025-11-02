@@ -1,5 +1,5 @@
 import { After, AfterAll, AfterStep, Before, BeforeAll,setDefaultTimeout, Status } from "@cucumber/cucumber";
-import {chromium, Browser, BrowserContext, Page, expect} from '@playwright/test';
+import {chromium, Browser, BrowserContext} from '@playwright/test';
 
 let browser:Browser;
 let context:BrowserContext;
@@ -22,7 +22,7 @@ After(async function () {
 
 AfterStep(async function ({pickle , result}) {
     if (result.status == Status.FAILED){
-        const screenShotPath = `cucumber/reports/screenshot/${pickle.name}.png`;
+        const screenShotPath = `reports/screenshot/${pickle.name}.png`;
         const screenshot = await this.page.screenshot({path:screenShotPath , type:'png' , fullpage: true });
         this.attach(screenshot, 'image/png');
     }

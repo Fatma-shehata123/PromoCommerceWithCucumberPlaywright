@@ -1,4 +1,5 @@
 import { Locator ,Page ,expect } from "@playwright/test";
+
 export default class PromoBasePage {
     protected readonly promoPage : Page ;
     constructor (PromoPage : Page){
@@ -25,4 +26,5 @@ export default class PromoBasePage {
         await element.check();
         await expect(element).toBeChecked();
     }
+
 }

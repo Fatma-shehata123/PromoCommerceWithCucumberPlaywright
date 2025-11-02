@@ -54,4 +54,11 @@ export default class PromoLoginPage extends PromoBasePage {
     async twoWayData(twowaydata : string){
         await this.enterTextToField(this.twoWayDataField , twowaydata);
     }
+    async isUsernameFieldVisible() {
+        return await this.userNameField.isVisible();
+    }
 }
+
+
+
+
