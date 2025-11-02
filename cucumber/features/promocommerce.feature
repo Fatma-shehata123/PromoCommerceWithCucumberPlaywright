@@ -18,7 +18,7 @@ Feature: E2E Feature
         |username||email          ||password||gender||birthday  ||twowaydata|
         |Fatma   ||fatma@gmail.com||1234    ||Female||2025-10-21||commerce  |
 
-# @addProduct
+@addProduct
     Scenario Outline: Add Product and Confirm Order
         When User navigates to the home page
         And User click on the add to cart "<items>"  
