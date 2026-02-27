@@ -93,7 +93,7 @@ npm run test
 - ✔ Page Object Model implementation
 - ✔ Ready for CI/CD integration and future expansion
 ---
-👩‍💻 Author
+### 👩‍💻 Author
 
 - Fatma Shehata
 - Software Testing Engineer
